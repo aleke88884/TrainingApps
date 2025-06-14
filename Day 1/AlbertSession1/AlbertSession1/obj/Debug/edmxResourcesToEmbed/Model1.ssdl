@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="albertModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="event">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="location" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="start" Type="datetime" Nullable="false" />
+    <Property Name="end" Type="datetime" Nullable="false" />
+    <Property Name="price_in_euro" Type="tinyint" Nullable="false" />
+    <Property Name="program" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="pictures" Type="nvarchar" MaxLength="100" />
+    <Property Name="state" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="rejectionReason" Type="nvarchar" MaxLength="50" />
+    <Property Name="organizer" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="venueId" Type="int" />
+  </EntityType>
+  <EntityType Name="moderator">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="passwordm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="given_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="family_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="town" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="birthday" Type="date" Nullable="false" />
+    <Property Name="postal_code" Type="smallint" Nullable="false" />
+    <Property Name="street_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="organizer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="passwordo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="pre_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="family_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Postal_code_and_town" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="birthday" Type="date" Nullable="false" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="hobby" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="passworduser" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="is_moderator" Type="smallint" />
+    <Property Name="FailedAttempts" Type="int" />
+    <Property Name="LastFailedLogin" Type="datetime" />
+    <Property Name="IsBanned" Type="bit" />
+  </EntityType>
+  <EntityType Name="venue">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="location" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_event_venue">
+    <End Role="venue" Type="Self.venue" Multiplicity="0..1" />
+    <End Role="event" Type="Self.event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="venue">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="event">
+        <PropertyRef Name="venueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="albertModelStoreContainer">
+    <EntitySet Name="event" EntityType="Self.event" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="moderator" EntityType="Self.moderator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="organizer" EntityType="Self.organizer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="venue" EntityType="Self.venue" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_event_venue" Association="Self.FK_event_venue">
+      <End Role="venue" EntitySet="venue" />
+      <End Role="event" EntitySet="event" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

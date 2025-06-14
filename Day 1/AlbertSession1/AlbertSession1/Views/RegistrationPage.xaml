@@ -1,0 +1,35 @@
+﻿<Page x:Class="AlbertSession1.RegistrationScreeen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AlbertSession1"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="800"
+      Title="RegistrationScreeen">
+
+    <Grid Margin="30">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400" >
+            <TextBlock Text="Email" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="emailTextBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Password" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="passwordBOx" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="PreName" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="preNameBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Family Name" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="familyNameBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Postal Code and Town" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="postalcodeAndTownBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="BirthDay" Margin="0,5" FontSize="16"/>
+            <DatePicker  x:Name="birthDayPicker" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Address" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="addressBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Phone" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="phoneBox" FontSize="15" Margin="0,5"/>
+            <TextBlock Text="Hobby" Margin="0,5" FontSize="16"/>
+            <TextBox x:Name="hobbyBox" FontSize="15" Margin="0,5"/>
+            <Button Content="Register" Click="RegisterBtnClick"  Margin="0,5"/>
+            <TextBlock x:Name="resultText" Foreground="Red" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Page>

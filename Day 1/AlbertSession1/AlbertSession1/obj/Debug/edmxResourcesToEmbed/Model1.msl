@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="albertModelStoreContainer" CdmEntityContainer="albertEntities1">
+    <EntitySetMapping Name="event">
+      <EntityTypeMapping TypeName="albertModel.event">
+        <MappingFragment StoreEntitySet="event">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="start" ColumnName="start" />
+          <ScalarProperty Name="end" ColumnName="end" />
+          <ScalarProperty Name="price_in_euro" ColumnName="price_in_euro" />
+          <ScalarProperty Name="program" ColumnName="program" />
+          <ScalarProperty Name="pictures" ColumnName="pictures" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="rejectionReason" ColumnName="rejectionReason" />
+          <ScalarProperty Name="organizer" ColumnName="organizer" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="venueId" ColumnName="venueId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="moderator">
+      <EntityTypeMapping TypeName="albertModel.moderator">
+        <MappingFragment StoreEntitySet="moderator">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="passwordm" ColumnName="passwordm" />
+          <ScalarProperty Name="given_name" ColumnName="given_name" />
+          <ScalarProperty Name="family_name" ColumnName="family_name" />
+          <ScalarProperty Name="town" ColumnName="town" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="postal_code" ColumnName="postal_code" />
+          <ScalarProperty Name="street_number" ColumnName="street_number" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="organizer">
+      <EntityTypeMapping TypeName="albertModel.organizer">
+        <MappingFragment StoreEntitySet="organizer">
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="passwordo" ColumnName="passwordo" />
+          <ScalarProperty Name="pre_name" ColumnName="pre_name" />
+          <ScalarProperty Name="family_name" ColumnName="family_name" />
+          <ScalarProperty Name="Postal_code_and_town" ColumnName="Postal_code_and_town" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="hobby" ColumnName="hobby" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="albertModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="passworduser" ColumnName="passworduser" />
+          <ScalarProperty Name="is_moderator" ColumnName="is_moderator" />
+          <ScalarProperty Name="FailedAttempts" ColumnName="FailedAttempts" />
+          <ScalarProperty Name="LastFailedLogin" ColumnName="LastFailedLogin" />
+          <ScalarProperty Name="IsBanned" ColumnName="IsBanned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="venue">
+      <EntityTypeMapping TypeName="albertModel.venue">
+        <MappingFragment StoreEntitySet="venue">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="location" ColumnName="location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
