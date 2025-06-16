@@ -1,0 +1,45 @@
+﻿<Window x:Class="AlbertSession2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlbertSession2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl x:Name="MainTabControl"
+                    Background="White"
+                    TabStripPlacement="Top"
+                    Margin="10">
+            <!-- Events Tab -->
+            <TabItem Header="Events">
+                <ScrollViewer>
+                    <StackPanel x:Name="EventsStack" Margin="10">
+                        <!-- Each event will be rendered here programmatically -->
+                        <TextBlock Text="Your upcoming events will be listed here..." FontSize="16" />
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- Requests Tab -->
+            <TabItem Header="Requests">
+                <ScrollViewer>
+                    <StackPanel x:Name="RequestsStack" Margin="10">
+                        <!-- Each request will be rendered here -->
+                        <TextBlock Text="Incoming requests from other users..." FontSize="16" />
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- Offers Tab -->
+            <TabItem Header="Offers">
+                <ScrollViewer>
+                    <StackPanel x:Name="OffersStack" Margin="10">
+                        <!-- Your offers will be rendered here -->
+                        <TextBlock Text="Your offered items and reservations..." FontSize="16" />
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

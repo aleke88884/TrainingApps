@@ -120,7 +120,32 @@ namespace AlbertSession1
 
         private void btnAddModerator_Click(object sender, RoutedEventArgs e)
         {
+            var database = DB.Gt();
 
+            if(string.IsNullOrWhiteSpace(modPreName.Text) || string.IsNullOrEmpty(modPassword.Text) || string.IsNullOrEmpty(modFamilyName.Text) || string.IsNullOrEmpty(modTown.Text) || string.IsNullOrEmpty(modPostalCode.Text) || 
+                string.IsNullOrEmpty(modHouseNo.Text) || string.IsNullOrEmpty(modPhone.Text) || string.IsNullOrEmpty(modEmail.Text) || string.IsNullOrEmpty(modStreet.Text) || string.IsNullOrEmpty(modPhone.Text) 
+                )
+            {
+                MessageBox.Show("Please enter a valid birthday date.");
+                return;
+            }
+
+
+            database.moderator.Add(new moderator 
+            { 
+                role = "moderator",
+                birthday = modBirthDay.SelectedDate ?? DateTime.Now,
+            email = modEmail.Text,
+            given_name = modPreName.Text,
+            family_name = modFamilyName.Text,
+            town = modTown.Text,
+            postal_code = short.Parse(modPostalCode.Text),
+            street_number = modHouseNo.Text,
+            phone = modPhone.Text,
+            passwordm = modPassword.Text,
+            }
+            );
+            MessageBox.Show("Moderator was added successfully!");
         }
     }
 }

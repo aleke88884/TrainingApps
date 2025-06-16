@@ -71,6 +71,10 @@
                                 <TextBox x:Name="modPhone" Width="150" Margin="0,5"/>
                                 <TextBlock Text="Email" Margin="5,5"/>
                                 <TextBox x:Name="modEmail"  Width="150" Margin="10,5"/>
+                                <TextBlock Text="Password" Margin="5,5"/>
+                                <TextBox x:Name="modPassword"  Width="150" Margin="10,5"/>
+                                <TextBlock Text="BirhtDay"  Margin="0,5"/>
+                                <DatePicker x:Name="modBirthDay" Width="150" Margin="0,5"/> 
                             </WrapPanel>
                             <Button x:Name="btnAddModerator" Content="Add Moderator" Click="btnAddModerator_Click" Width="150" HorizontalAlignment="Left" Margin="0,10,0,0"/>
                         </StackPanel>

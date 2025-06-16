@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="albertTwoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="event_id" />
+    </Key>
+    <Property Name="event_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="location_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="start" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Locations" Relationship="Self.FK__Events__location__2A4B4B5E" FromRole="Events" ToRole="Locations" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Events__user_id__2B3F6F97" FromRole="Events" ToRole="Users" />
+    <NavigationProperty Name="RequestedItems" Relationship="Self.FK__Requested__event__2C3393D0" FromRole="Events" ToRole="RequestedItems" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Events" Relationship="Self.FK__Events__location__2A4B4B5E" FromRole="Locations" ToRole="Events" />
+  </EntityType>
+  <EntityType Name="RequestedItems">
+    <Key>
+      <PropertyRef Name="requested_item_id" />
+    </Key>
+    <Property Name="requested_item_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="event_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="amount" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Events" Relationship="Self.FK__Requested__event__2C3393D0" FromRole="RequestedItems" ToRole="Events" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password_hash" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Events" Relationship="Self.FK__Events__user_id__2B3F6F97" FromRole="Users" ToRole="Events" />
+  </EntityType>
+  <Association Name="FK__Events__location__2A4B4B5E">
+    <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+    <End Role="Events" Type="Self.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="location_id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="location_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Events__user_id__2B3F6F97">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Events" Type="Self.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requested__event__2C3393D0">
+    <End Role="Events" Type="Self.Events" Multiplicity="1" />
+    <End Role="RequestedItems" Type="Self.RequestedItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Events">
+        <PropertyRef Name="event_id" />
+      </Principal>
+      <Dependent Role="RequestedItems">
+        <PropertyRef Name="event_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="albertTwoEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Events" EntityType="Self.Events" />
+    <EntitySet Name="Locations" EntityType="Self.Locations" />
+    <EntitySet Name="RequestedItems" EntityType="Self.RequestedItems" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Events__location__2A4B4B5E" Association="Self.FK__Events__location__2A4B4B5E">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Events" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Events__user_id__2B3F6F97" Association="Self.FK__Events__user_id__2B3F6F97">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Events" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requested__event__2C3393D0" Association="Self.FK__Requested__event__2C3393D0">
+      <End Role="Events" EntitySet="Events" />
+      <End Role="RequestedItems" EntitySet="RequestedItems" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
