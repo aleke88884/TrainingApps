@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|d:\\training days apps\\day 1\\albertsession1\\albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|d:\\training days apps\\day 1\\albertsession1\\albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\services\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,29 +89,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DB.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Models\\DB.cs",
               "RelativeDocumentMoniker": "AlbertSession1\\Models\\DB.cs",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Models\\DB.cs",
               "RelativeToolTip": "AlbertSession1\\Models\\DB.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAIwLAAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwLAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T05:23:13.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModeratorPage.xaml.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Views\\ModeratorPage.xaml.cs",
               "RelativeDocumentMoniker": "AlbertSession1\\Views\\ModeratorPage.xaml.cs",
-              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Views\\ModeratorPage.xaml.cs*",
-              "RelativeToolTip": "AlbertSession1\\Views\\ModeratorPage.xaml.cs*",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Views\\ModeratorPage.xaml.cs",
+              "RelativeToolTip": "AlbertSession1\\Views\\ModeratorPage.xaml.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAmwI4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T09:26:19.87Z",
@@ -127,8 +127,7 @@
               "RelativeToolTip": "AlbertSession1\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T04:32:11.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T04:32:11.641Z"
             },
             {
               "$type": "Document",
@@ -151,20 +150,18 @@
               "RelativeToolTip": "AlbertSession1\\Services\\Navigation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T05:18:52.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T05:18:52.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Model1.edmx",
               "RelativeDocumentMoniker": "AlbertSession1\\Model1.edmx",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\AlbertSession1\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "AlbertSession1\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-06-14T08:51:04.126Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-06-14T08:51:04.126Z"
             },
             {
               "$type": "Document",

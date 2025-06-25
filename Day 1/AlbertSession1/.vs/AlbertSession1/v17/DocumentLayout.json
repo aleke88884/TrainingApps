@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|d:\\training days apps\\day 1\\albertsession1\\albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|d:\\training days apps\\day 1\\albertsession1\\albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|D:\\TRAINING DAYS APPS\\Day 1\\AlbertSession1\\albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{668B37AD-6353-494B-97D0-46F7A7FD0A0E}|AlbertSession1\\AlbertSession1.csproj|solutionrelative:albertsession1\\views\\moderatorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,8 +114,7 @@
               "RelativeToolTip": "AlbertSession1\\Views\\ModeratorPage.xaml.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAmwI4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T09:26:19.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T09:26:19.87Z"
             },
             {
               "$type": "Document",
