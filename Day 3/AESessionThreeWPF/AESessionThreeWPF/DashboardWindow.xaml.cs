@@ -24,7 +24,19 @@ namespace AESessionThreeWPF
         public DashboardWindow()
         {
             InitializeComponent();
-            ComboboxEventGroup.ItemsSource = DB.GT().EventGroups.Select(a => a.Name).ToList();            
+            ComboboxEventGroup.ItemsSource = DB.GT().EventGroups.Select(a => a.Name).ToList();
+            var tableEvents = DB.GT().Events.Select(ev => new EventTableItem
+            {
+                name = ev.Name,
+                availableTickets = ev.Tickets.Count(t=> !t.Bookings.Any()),
+                soldTickets = ev.Tickets.Count(t => t.Bookings.Any()),
+                allTickets = ev.Tickets.Count(),
+                occupancy = ev.Tickets.Count() == 0 ? 0:
+                Math.Round((double)ev.Tickets.Count(t=> t.Bookings.Any())/ev.Tickets.Count()*100,2),
+                eventDate = ev.StartsAt,
+            }).ToList();
+
+            EventsDataGrid.ItemsSource = tableEvents;
         }
 
         private void ComboboxEventGroup_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -90,12 +102,54 @@ namespace AESessionThreeWPF
 
         private void RBShowPastEvents_Checked(object sender, RoutedEventArgs e)
         {
+            EventsDataGrid.Items.Clear();
+            var tableEvents = DB.GT().Events.Where(ev => ev.StartsAt < DateTime.Now)
+                .Select(ev => new EventTableItem {
+                    name = ev.Name,
+                    availableTickets = ev.Tickets.Count(t => !t.Bookings.Any()),
+                    soldTickets = ev.Tickets.Count(t => t.Bookings.Any()),
+                    allTickets = ev.Tickets.Count(),
+                    occupancy = ev.Tickets.Count() == 0 ? 0: 
+                    Math.Round((double) ev.Tickets.Count(t=>t.Bookings.Any())/ev.Tickets.Count()*100,2),
+                    eventDate = ev.StartsAt,
+                
+                }).ToList();
 
+            EventsDataGrid.ItemsSource = tableEvents;
         }
 
         private void RBShowPastEvents_Unchecked(object sender, RoutedEventArgs e)
         {
+            EventsDataGrid.Items.Clear();
+            var tableEvents = DB.GT().Events.Select(ev => new EventTableItem
+            {
+                name = ev.Name,
+                availableTickets = ev.Tickets.Count(t => !t.Bookings.Any()),
+                soldTickets = ev.Tickets.Count(t => t.Bookings.Any()),
+                allTickets = ev.Tickets.Count(),
+                occupancy = ev.Tickets.Count() == 0 ? 0 :
+                            Math.Round((double)ev.Tickets.Count(t => t.Bookings.Any()) / ev.Tickets.Count() * 100, 2),
+                eventDate = ev.StartsAt,
+            }).ToList();
 
+            EventsDataGrid.ItemsSource = tableEvents;
+        }
+
+        private void EventsDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void EventsDataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var selectedItem = EventsDataGrid.SelectedItem as EventTableItem;
+
+            if (selectedItem != null)
+            {
+                var eventDetailsWindow = new EventDetailsWindow(selectedItem);
+                eventDetailsWindow.DataContext = selectedItem;
+                eventDetailsWindow.ShowDialog();
+            }
         }
     }
 }

@@ -1,80 +1,41 @@
 ﻿using AESessionThreeWPF.ModelDTO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.IO;
 using CsvHelper;
 using CsvHelper.Configuration;
+using System;
+using System.Collections.Generic;
 using System.Globalization;
-
+using System.IO;
+using System.Linq;
+using System.Text.Json;
+using System.Windows;
+using Tomlyn;
 
 namespace AESessionThreeWPF
 {
-    /// <summary>
-    /// Interaction logic for ImportWindow.xaml
-    /// </summary>
     public partial class ImportWindow : Window
     {
-        string selectedType = string.Empty;
+        private string selectedType = string.Empty;
+        private string selectedFileType = "All files (*.*)|*.*";
+        private string _filePath;
+        private readonly albertSessionThreeEntities1 db = new albertSessionThreeEntities1();
 
-        string selectedFileType = "All files (*.*)|*.*";
-        albertSessionThreeEntities1 db = new albertSessionThreeEntities1(); 
-        public ImportWindow()
-        {
-            InitializeComponent();
-        }
-
-        private string _filePath; // глобальная переменная, чтобы использовать потом в импорте
+        public ImportWindow() => InitializeComponent();
 
         private void BtnSelectFile_Click(object sender, RoutedEventArgs e)
         {
-            // Определение типа и фильтра — у тебя уже правильно написано:
             if (RbOrganizers.IsChecked == true)
-            {
-                selectedType = "Organizers";
-                selectedFileType = "JSON files (*.json)|*.json";
-            }
+                SetFileType("Organizers", "JSON files (*.json)|*.json");
             else if (RbLocations.IsChecked == true)
-            {
-                selectedType = "Locations";
-                selectedFileType = "TOML files (*.toml)|*.toml";
-            }
+                SetFileType("Locations", "TOML files (*.toml)|*.toml");
             else if (RbEvents.IsChecked == true)
-            {
-                selectedType = "Events";
-                selectedFileType = "CSV files (*.csv)|*.csv";
-            }
+                SetFileType("Events", "CSV files (*.csv)|*.csv");
             else if (RbBookingsCsv.IsChecked == true)
-            {
-                selectedType = "BookingsCsv";
-                selectedFileType = "CSV files (*.csv)|*.csv";
-            }
+                SetFileType("BookingsCsv", "CSV files (*.csv)|*.csv");
             else if (RbBookingsMc.IsChecked == true)
-            {
-                selectedType = "BookingsMc";
-                selectedFileType = "Mc files (*.mc)|*.mc";
-            }
+                SetFileType("BookingsMc", "Mc files (*.mc)|*.mc");
             else if (RbBookingsTpc.IsChecked == true)
-            {
-                selectedType = "BookingsTpc";
-                selectedFileType = "Tpc files (*.tpc)|*.tpc";
-            }
-            else
-            {
-                selectedFileType = "All files (*.*)|*.*";
-            }
+                SetFileType("BookingsTpc", "Tpc files (*.tpc)|*.tpc");
 
-            // Открытие файла
             var dialog = new Microsoft.Win32.OpenFileDialog
             {
                 Filter = selectedFileType,
@@ -85,8 +46,6 @@ namespace AESessionThreeWPF
             {
                 _filePath = dialog.FileName;
                 MessageBox.Show($"Selected file:\n{_filePath}", "File selected", MessageBoxButton.OK, MessageBoxImage.Information);
-
-
             }
             else
             {
@@ -94,6 +53,11 @@ namespace AESessionThreeWPF
             }
         }
 
+        private void SetFileType(string type, string filter)
+        {
+            selectedType = type;
+            selectedFileType = filter;
+        }
 
         private void BtnImport_Click(object sender, RoutedEventArgs e)
         {
@@ -108,146 +72,23 @@ namespace AESessionThreeWPF
                 switch (selectedType)
                 {
                     case "Organizers":
-                        var organizersJson = File.ReadAllText(_filePath);
-                        var organizers = JsonSerializer.Deserialize<List<OrganizerDto>>(organizersJson);
-                        foreach (var item in organizers)
-                        {
-                            db.Organizers.Add(new Organizer { 
-                            Id = item.id,
-                            Name = item.name,
-                            Address = item.address
-                            
-                            
-                            });
-                            
-                        }
-                        db.SaveChanges();
+                        ImportOrganizers();
                         break;
                     case "Locations":
-                        var tomlText = File.ReadAllText(_filePath);
-                        var tomlModel = Tomlyn.Toml.ToModel(tomlText);
-
-                        var locations = new List<LocationDto>();
-                        var locationTableToArray= tomlModel["bookings"] as Tomlyn.Model.TomlTableArray;
-                        foreach (var table in locationTableToArray)
-                        {
-                            var location = new LocationDto
-                            {
-                                id = table["id"]?.ToString(),
-                                name = table["name"]?.ToString(),
-                                location = table["location"]?.ToString(),
-                                maxvisitors = Convert.ToInt32(table["max_visitors"]),
-                                description = table["description"]?.ToString()
-                            };
-                            db.Locations.Add(new Location
-                            {
-                                Id = location.id,
-                                Name = location.name,
-                                Location1 = location.location,
-                                MaxVisitors = location.maxvisitors,
-                                Description = location.description,
-                            });
-                            }
-                        db.SaveChanges();
+                        ImportLocations();
                         break;
                     case "Events":
-                        var eventsJson = File.ReadAllText(_filePath);
-                        var events = new List<EventDto>();
-                        using (var reader = new StreamReader(_filePath))
-                        using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
-                        {
-                            var eventDtos = csv.GetRecords<EventDto>().ToList();
-                            events = eventDtos;
-                        }
-                       foreach (var item in events)
-                        {
-                            db.Events.Add(new Event
-                            {
-                                Id = item.id,
-                                Name = item.name,
-                                Description = item.description,
-                                StartsAt = (DateTime)item.startsAt,
-                                LocationId = item.locationId,
-                                OrganizerId = item.organizerId
-                            });
-                        }
-                        db.SaveChanges();
+                        ImportEvents();
                         break;
                     case "BookingsCsv":
-                        var bookings = new List<BookingDto>();
-                        using (var reader = new StreamReader(_filePath))
-                        using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
-                        {
-                            var bookingsCsv = csv.GetRecords<BookingDto>().ToList();
-                            bookings = bookingsCsv;
-                        }
-                        foreach (var item in bookings)
-                        {
-                            db.Bookings.Add(new Booking {
-                                
-
-                                Id = item.id,
-                                UserId = item.userId,
-                                TicketId = item.ticketId,
-                                BoughtAt = (DateTime)item.boughtAt,
-                                Amount = item.amount,
-                                Price = item.price,
-
-
-
-
-                            });
-                        }
-                        db.SaveChanges();
+                        ImportBookingsFromCsv();
                         break;
                     case "BookingsMc":
-                        var mcLines = File.ReadAllLines(_filePath);
-                        var bookingsMc = mcLines.Select(ParseMcLine).ToList();
-                          foreach (var item in bookingsMc)
-                        {
-                            db.Bookings.Add(new Booking {
-                                
-
-                                Id = item.id,
-                                UserId = item.userId,
-                                TicketId = item.ticketId,
-                                BoughtAt = (DateTime)item.boughtAt,
-                                Amount = item.amount,
-                                Price = item.price,
-
-
-
-
-                            });
-                        }
-                        db.SaveChanges();// Метод ParseMcLine напишем ниже
+                        ImportBookingsFromLines(File.ReadAllLines(_filePath), ParseMcLine);
                         break;
-
                     case "BookingsTpc":
-                        var tpcLines = File.ReadAllLines(_filePath);
-                        var bookingsTpc = tpcLines.Select(ParseTpcLine).ToList(); // Аналогично
-                        foreach (var item in bookingsTpc)
-                        {
-                            db.Bookings.Add(new Booking
-                            {
-
-
-                                Id = item.id,
-                                UserId = item.userId,
-                                TicketId = item.ticketId,
-                                BoughtAt = (DateTime)item.boughtAt,
-                                Amount = item.amount,
-                                Price = item.price,
-
-
-
-
-                            });
-                        }
-                        db.SaveChanges();
-
+                        ImportBookingsFromLines(File.ReadAllLines(_filePath), ParseTpcLine);
                         break;
-
                     default:
                         MessageBox.Show("Unknown type selected.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                         break;
@@ -255,28 +96,101 @@ namespace AESessionThreeWPF
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred during import: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
+                MessageBox.Show($"An error occurred during import:\n{ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
-
         }
-        private BookingDto ParseMcLine(string line)
+
+        private void ImportOrganizers()
         {
-            var parts = line.Split(',');
-            return new BookingDto
+            var json = File.ReadAllText(_filePath);
+            var organizers = JsonSerializer.Deserialize<List<OrganizerDto>>(json);
+            foreach (var item in organizers)
             {
-                id = parts[0],
-                userId = parts[1],
-                ticketId = parts[2],
-                boughtAt = DateTime.Parse(parts[3]),
-                amount = int.Parse(parts[4]),
-                price = decimal.Parse(parts[5])
-            };
+                db.Organizers.Add(new Organizer
+                {
+                    Id = item.id,
+                    Name = item.name,
+                    Address = item.address
+                });
+            }
+            db.SaveChanges();
         }
 
+        private void ImportLocations()
+        {
+            var toml = Toml.ToModel(File.ReadAllText(_filePath));
+            var tables = toml["bookings"] as Tomlyn.Model.TomlTableArray;
 
-        private BookingDto ParseTpcLine(string line)
+            foreach (var table in tables)
+            {
+                db.Locations.Add(new Location
+                {
+                    Id = table["id"]?.ToString(),
+                    Name = table["name"]?.ToString(),
+                    Location1 = table["location"]?.ToString(),
+                    MaxVisitors = Convert.ToInt32(table["max_visitors"]),
+                    Description = table["description"]?.ToString()
+                });
+            }
+            db.SaveChanges();
+        }
+
+        private void ImportEvents()
+        {
+             var reader = new StreamReader(_filePath);
+            var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture));
+            var records = csv.GetRecords<EventDto>().ToList();
+
+            foreach (var item in records)
+            {
+                db.Events.Add(new Event
+                {
+                    Id = item.id,
+                    Name = item.name,
+                    Description = item.description,
+                    StartsAt = (DateTime)item.startsAt,
+                    LocationId = item.locationId,
+                    OrganizerId = item.organizerId
+                });
+            }
+            db.SaveChanges();
+        }
+
+        private void ImportBookingsFromCsv()
+        {
+            var reader = new StreamReader(_filePath);
+            var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture));
+            var records = csv.GetRecords<BookingDto>().ToList();
+            SaveBookings(records);
+        }
+
+        private void ImportBookingsFromLines(string[] lines, Func<string, BookingDto> parser)
+        {
+            var records = lines.Select(parser).ToList();
+            SaveBookings(records);
+        }
+
+        private void SaveBookings(IEnumerable<BookingDto> bookings)
+        {
+            foreach (var item in bookings)
+            {
+                db.Bookings.Add(new Booking
+                {
+                    Id = item.id,
+                    UserId = item.userId,
+                    TicketId = item.ticketId,
+                    BoughtAt = (DateTime)item.boughtAt,
+                    Amount = item.amount,
+                    Price = item.price
+                });
+            }
+            db.SaveChanges();
+        }
+
+        private BookingDto ParseMcLine(string line) => ParseDelimitedBooking(line);
+        private BookingDto ParseTpcLine(string line) => ParseDelimitedBooking(line);
+
+        private BookingDto ParseDelimitedBooking(string line)
         {
             var parts = line.Split(',');
             return new BookingDto
@@ -292,17 +206,13 @@ namespace AESessionThreeWPF
 
         private void BtnDashboard_Click(object sender, RoutedEventArgs e)
         {
-            DashboardWindow dashboardWindow = new DashboardWindow();
-            dashboardWindow.Show();
-            this.Close();
+            new DashboardWindow().Show();
+            Close();
         }
 
         private void BtnEvent_Click(object sender, RoutedEventArgs e)
         {
-            EventDetailsWindow eventDetailsWindow = new EventDetailsWindow();
-            eventDetailsWindow.Show();
-            this.Close();
+            // To be implemented if needed
         }
     }
-    }
-
+}

@@ -177,11 +177,14 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="ModelDTO\BookingDto.cs" />
+    <Compile Include="ModelDTO\ChartPoint.cs" />
     <Compile Include="ModelDTO\DB.cs" />
     <Compile Include="ModelDTO\EventDto.cs" />
     <Compile Include="ModelDTO\EventTableItem.cs" />
     <Compile Include="ModelDTO\LocationDto.cs" />
     <Compile Include="ModelDTO\OrganizerDto.cs" />
+    <Compile Include="ModelDTO\TierForecastItem.cs" />
+    <Compile Include="ModelDTO\TiersTableItem.cs" />
     <Compile Include="Organizer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

@@ -34,11 +34,12 @@
         <Button Content="Events Details Window" Grid.Row="1" Grid.Column="0" Width="200" Height="30" FontSize="14" x:Name="BtnEvent" Click="BtnEvent_Click"/>
 
         <DataGrid
-            Grid.Row="2"
-            Grid.ColumnSpan="3"
-            Margin="10"
-            AutoGenerateColumns="False"
-            IsReadOnly="True"
+           x:Name="ImportDataGrid"
+    Grid.Row="2"
+    Grid.ColumnSpan="3"
+    Margin="10"
+    AutoGenerateColumns="True"
+    IsReadOnly="True"
             
             >
             <DataGrid.Columns>

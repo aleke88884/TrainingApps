@@ -59,14 +59,14 @@
             <TextBlock Text="Events"  Margin="10,5"/>
             <RadioButton x:Name="RBShowPastEvents" Content="Show Past Events" Unchecked="RBShowPastEvents_Unchecked" HorizontalAlignment="Right" Margin="10,5" Checked="RBShowPastEvents_Checked" />
         </Grid>
-        <DataGrid x:Name="EventsDataGrid" Grid.Row="3" Margin="10" AutoGenerateColumns="False">
+        <DataGrid x:Name="EventsDataGrid" MouseDoubleClick="EventsDataGrid_MouseDoubleClick" Grid.Row="3" Margin="10" AutoGenerateColumns="False" SelectionChanged="EventsDataGrid_SelectionChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Event name" Binding="{Binding Name}" Width="*" />
-                <DataGridTextColumn Header="Available tickets" Binding="{Binding }" Width="*"/>
+                <DataGridTextColumn Header="Event name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="Available tickets" Binding="{Binding availableTickets}" Width="*"/>
                 <DataGridTextColumn Header="Sold tickets" Binding="{Binding soldTickets}" Width="*"/>
                 <DataGridTextColumn Header="all tickets" Binding="{Binding allTickets}" Width="*"/>
                 <DataGridTextColumn Header="Occupancy" Binding="{Binding occupancy}" Width="*"/>
-                <DataGridTextColumn Header="Event date" Binding="{Binding date}" Width="*"/>
+                <DataGridTextColumn Header="Event date" Binding="{Binding eventDate}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
