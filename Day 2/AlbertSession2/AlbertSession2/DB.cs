@@ -8,11 +8,11 @@ namespace AlbertSession2
 {
     internal class DB
     {
-        private static albertTwoEntities1 context;
-        public static albertTwoEntities1 Gt() {
+        private static albertTwoEntities2 context;
+        public static albertTwoEntities2 Gt() {
             if (context == null)
             {
-                context = new albertTwoEntities1();
+                context = new albertTwoEntities2();
             }
             return context;
         }

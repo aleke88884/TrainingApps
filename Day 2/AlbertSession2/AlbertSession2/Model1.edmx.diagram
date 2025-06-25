@@ -4,14 +4,23 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e8d9f2cf87384d56a0116b06244c38bb" Name="Diagram1">
+      <Diagram DiagramId="af5b177beefb449188fed696235faffe" Name="Diagram1">
         <EntityTypeShape EntityType="albertTwoModel.Events" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="albertTwoModel.Locations" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="albertTwoModel.RequestedItems" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="albertTwoModel.Users" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.InventoryItems" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.Locations" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.Offers" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.RequestedItems" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.Reservations" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.Table" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertTwoModel.Users" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
         <AssociationConnector Association="albertTwoModel.FK__Events__location__2A4B4B5E" ManuallyRouted="false" />
         <AssociationConnector Association="albertTwoModel.FK__Events__user_id__2B3F6F97" ManuallyRouted="false" />
         <AssociationConnector Association="albertTwoModel.FK__Requested__event__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="albertTwoModel.FK_Offers_ToRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="albertTwoModel.FK_Offers_ToUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="albertTwoModel.FK_Reservations_ToOffers" ManuallyRouted="false" />
+        <AssociationConnector Association="albertTwoModel.FK_Reservations_ToRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="albertTwoModel.FK_Reservations_ToUsers" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="albertTwoModelStoreContainer" CdmEntityContainer="albertTwoEntities1">
+  <EntityContainerMapping StorageEntityContainer="albertTwoModelStoreContainer" CdmEntityContainer="albertTwoEntities2">
     <EntitySetMapping Name="Events">
       <EntityTypeMapping TypeName="albertTwoModel.Events">
         <MappingFragment StoreEntitySet="Events">
@@ -13,11 +13,28 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="InventoryItems">
+      <EntityTypeMapping TypeName="albertTwoModel.InventoryItems">
+        <MappingFragment StoreEntitySet="InventoryItems">
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Locations">
       <EntityTypeMapping TypeName="albertTwoModel.Locations">
         <MappingFragment StoreEntitySet="Locations">
           <ScalarProperty Name="location_id" ColumnName="location_id" />
           <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Offers">
+      <EntityTypeMapping TypeName="albertTwoModel.Offers">
+        <MappingFragment StoreEntitySet="Offers">
+          <ScalarProperty Name="offerId" ColumnName="offerId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="requestId" ColumnName="requestId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -28,6 +45,27 @@
           <ScalarProperty Name="event_id" ColumnName="event_id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="isFull" ColumnName="isFull" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reservations">
+      <EntityTypeMapping TypeName="albertTwoModel.Reservations">
+        <MappingFragment StoreEntitySet="Reservations">
+          <ScalarProperty Name="reservationId" ColumnName="reservationId" />
+          <ScalarProperty Name="requestId" ColumnName="requestId" />
+          <ScalarProperty Name="offerId" ColumnName="offerId" />
+          <ScalarProperty Name="reservedByUserId" ColumnName="reservedByUserId" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="albertTwoModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="name" ColumnName="name" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

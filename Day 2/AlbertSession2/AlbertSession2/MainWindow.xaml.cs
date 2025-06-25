@@ -20,9 +20,27 @@ namespace AlbertSession2
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public int userId;
+
+        public MainWindow(int userId)
         {
             InitializeComponent();
+            this.userId = userId;
+            // Теперь можно использовать userId сразу, например:
+            LoadUserEvents();
+        }
+        private void LoadUserEvents()
+        {
+            EventsDataGrid.ItemsSource = DB.Gt().Events
+                .Include("Locations")
+                .Include("Users")
+                .Where(e => e.user_id == userId)
+                .ToList();
+        }
+        private void LoadOffers()
+        {
+            var offers = DB.Gt().Offers.Include("Users").Include("RequestedItems").Include("Reservations");
+
         }
     }
 }

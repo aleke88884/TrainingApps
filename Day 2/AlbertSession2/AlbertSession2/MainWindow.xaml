@@ -15,8 +15,25 @@
             <TabItem Header="Events">
                 <ScrollViewer>
                     <StackPanel x:Name="EventsStack" Margin="10">
-                        <!-- Each event will be rendered here programmatically -->
-                        <TextBlock Text="Your upcoming events will be listed here..." FontSize="16" />
+                        <DataGrid x:Name="EventsDataGrid" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Event Name" Binding="{Binding name}" Width="*"/>
+                                <DataGridTextColumn Header="Date" Binding="{Binding start}" Width="*"/>
+                                <DataGridTextColumn Header="Location" Binding="{Binding end}" Width="*"/>
+                                <DataGridTextColumn Header="Place" Binding="{Binding Locations.name}" Width="*"/>
+                                <DataGridTemplateColumn Header="Requested Items" Width="*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <ComboBox ItemsSource="{Binding RequestedItems}" 
+                                                        DisplayMemberPath="name"
+                                                      SelectedValuePath="name"
+                                                        IsReadOnly="True"
+                                                        IsEditable="False"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
                     </StackPanel>
                 </ScrollViewer>
             </TabItem>
@@ -33,12 +50,30 @@
 
             <!-- Offers Tab -->
             <TabItem Header="Offers">
-                <ScrollViewer>
-                    <StackPanel x:Name="OffersStack" Margin="10">
-                        <!-- Your offers will be rendered here -->
-                        <TextBlock Text="Your offered items and reservations..." FontSize="16" />
-                    </StackPanel>
-                </ScrollViewer>
+                <StackPanel Margin="10">
+                    <Button Content="Add Offer" Width="100" Margin="0,0,0,10" Click="AddOffer_Click"/>
+
+                    <DataGrid x:Name="OffersDataGrid" AutoGenerateColumns="False" 
+                  ItemsSource="{Binding}" MouseDoubleClick="OffersDataGrid_DoubleClick">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Item Name" Binding="{Binding name}" Width="2*"/>
+                            <DataGridTextColumn Header="Amount" Binding="{Binding amount}" Width="*"/>
+                            <DataGridTemplateColumn Header="Reservations" Width="3*">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ItemsControl ItemsSource="{Binding Reservations}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding DisplayInfo}" />
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
             </TabItem>
         </TabControl>
     </Grid>

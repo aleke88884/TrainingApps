@@ -14,11 +14,23 @@ namespace AlbertSession2
     
     public partial class RequestedItems
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public RequestedItems()
+        {
+            this.Offers = new HashSet<Offers>();
+            this.Reservations = new HashSet<Reservations>();
+        }
+    
         public int requested_item_id { get; set; }
         public int event_id { get; set; }
         public string name { get; set; }
         public int amount { get; set; }
+        public Nullable<short> isFull { get; set; }
     
         public virtual Events Events { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Offers> Offers { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Reservations> Reservations { get; set; }
     }
 }

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbertSession2Mobile.Android", "AlbertSession2Mobile\AlbertSession2Mobile.Android\AlbertSession2Mobile.Android.csproj", "{04914CF5-2906-44E3-A863-A41B05DFC88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbertSession2Mobile", "AlbertSession2Mobile\AlbertSession2Mobile\AlbertSession2Mobile.csproj", "{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04914CF5-2906-44E3-A863-A41B05DFC88B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196CCEBA-1789-499B-9CED-3546B4F5C6D6}
+	EndGlobalSection
+EndGlobal

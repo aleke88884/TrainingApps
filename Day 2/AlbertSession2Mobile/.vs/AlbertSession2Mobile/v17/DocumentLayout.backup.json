@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\albertsession2mobile\\albertsession2mobile.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\albertsession2mobile\\albertsession2mobile.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\models\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\models\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\maintabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\maintabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\models\\requesteditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\models\\requesteditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\maintabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\maintabbedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\models\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\models\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\models\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\models\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|d:\\training days apps\\day 2\\albertsession2mobile\\albertsession2mobile\\albertsession2mobile\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{7C3E33A0-5C25-47F2-85DA-A217F17B56E1}|AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\albertsession2mobile\\albertsession2mobile.android\\resources\\xml\\network.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{04914CF5-2906-44E3-A863-A41B05DFC88B}|AlbertSession2Mobile\\AlbertSession2Mobile.Android\\AlbertSession2Mobile.Android.csproj|solutionrelative:albertsession2mobile\\albertsession2mobile.android\\resources\\xml\\network.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\MainActivity.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\MainActivity.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:29:09.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OfferDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\OfferDto.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\OfferDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\OfferDto.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\OfferDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:23:00.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\ReservationDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\ReservationDto.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:55:28.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestedItemDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\RequestedItemDto.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\RequestedItemDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\RequestedItemDto.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\RequestedItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:55:05.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\EventDto.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\EventDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\EventDto.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\Models\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:54:15.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainTabbedPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:50:59.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainTabbedPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainTabbedPage.xaml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-19T08:50:18.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\LoginResponseDTO.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\LoginResponseDTO.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:07:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\ApiService.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\ApiService.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\ApiService.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\ApiService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwHEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:57:17.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml.cs",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:54:39.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\App.xaml",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\App.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\App.xaml",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T09:54:18.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T09:54:15.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-18T09:53:59.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "network.xml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Resources\\xml\\network.xml",
+              "RelativeDocumentMoniker": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Resources\\xml\\network.xml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSession2Mobile\\AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Resources\\xml\\network.xml",
+              "RelativeToolTip": "AlbertSession2Mobile\\AlbertSession2Mobile.Android\\Resources\\xml\\network.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-18T09:51:50.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

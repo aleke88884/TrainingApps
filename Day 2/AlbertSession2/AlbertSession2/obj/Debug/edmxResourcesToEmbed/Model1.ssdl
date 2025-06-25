@@ -11,12 +11,27 @@
     <Property Name="start" Type="datetime" Nullable="false" />
     <Property Name="end" Type="datetime" Nullable="false" />
   </EntityType>
+  <EntityType Name="InventoryItems">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
+  </EntityType>
   <EntityType Name="Locations">
     <Key>
       <PropertyRef Name="location_id" />
     </Key>
     <Property Name="location_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Offers">
+    <Key>
+      <PropertyRef Name="offerId" />
+    </Key>
+    <Property Name="offerId" Type="int" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="requestId" Type="int" />
   </EntityType>
   <EntityType Name="RequestedItems">
     <Key>
@@ -26,6 +41,25 @@
     <Property Name="event_id" Type="int" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="isFull" Type="smallint" />
+  </EntityType>
+  <EntityType Name="Reservations">
+    <Key>
+      <PropertyRef Name="reservationId" />
+    </Key>
+    <Property Name="reservationId" Type="int" Nullable="false" />
+    <Property Name="requestId" Type="int" />
+    <Property Name="offerId" Type="int" />
+    <Property Name="reservedByUserId" Type="int" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
@@ -71,10 +105,74 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Offers_ToRequests">
+    <End Role="RequestedItems" Type="Self.RequestedItems" Multiplicity="0..1" />
+    <End Role="Offers" Type="Self.Offers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RequestedItems">
+        <PropertyRef Name="requested_item_id" />
+      </Principal>
+      <Dependent Role="Offers">
+        <PropertyRef Name="requestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Offers_ToUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Offers" Type="Self.Offers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Offers">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reservations_ToOffers">
+    <End Role="Offers" Type="Self.Offers" Multiplicity="0..1" />
+    <End Role="Reservations" Type="Self.Reservations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Offers">
+        <PropertyRef Name="offerId" />
+      </Principal>
+      <Dependent Role="Reservations">
+        <PropertyRef Name="offerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reservations_ToRequests">
+    <End Role="RequestedItems" Type="Self.RequestedItems" Multiplicity="0..1" />
+    <End Role="Reservations" Type="Self.Reservations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RequestedItems">
+        <PropertyRef Name="requested_item_id" />
+      </Principal>
+      <Dependent Role="Reservations">
+        <PropertyRef Name="requestId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reservations_ToUsers">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Reservations" Type="Self.Reservations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Reservations">
+        <PropertyRef Name="reservedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="albertTwoModelStoreContainer">
     <EntitySet Name="Events" EntityType="Self.Events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InventoryItems" EntityType="Self.InventoryItems" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Offers" EntityType="Self.Offers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="RequestedItems" EntityType="Self.RequestedItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reservations" EntityType="Self.Reservations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table" EntityType="Self.Table" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__Events__location__2A4B4B5E" Association="Self.FK__Events__location__2A4B4B5E">
       <End Role="Locations" EntitySet="Locations" />
@@ -87,6 +185,26 @@
     <AssociationSet Name="FK__Requested__event__2C3393D0" Association="Self.FK__Requested__event__2C3393D0">
       <End Role="Events" EntitySet="Events" />
       <End Role="RequestedItems" EntitySet="RequestedItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Offers_ToRequests" Association="Self.FK_Offers_ToRequests">
+      <End Role="RequestedItems" EntitySet="RequestedItems" />
+      <End Role="Offers" EntitySet="Offers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Offers_ToUsers" Association="Self.FK_Offers_ToUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Offers" EntitySet="Offers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reservations_ToOffers" Association="Self.FK_Reservations_ToOffers">
+      <End Role="Offers" EntitySet="Offers" />
+      <End Role="Reservations" EntitySet="Reservations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reservations_ToRequests" Association="Self.FK_Reservations_ToRequests">
+      <End Role="RequestedItems" EntitySet="RequestedItems" />
+      <End Role="Reservations" EntitySet="Reservations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reservations_ToUsers" Association="Self.FK_Reservations_ToUsers">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reservations" EntitySet="Reservations" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

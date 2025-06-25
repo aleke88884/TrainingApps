@@ -18,6 +18,8 @@ namespace AlbertSession2
         public Users()
         {
             this.Events = new HashSet<Events>();
+            this.Offers = new HashSet<Offers>();
+            this.Reservations = new HashSet<Reservations>();
         }
     
         public int user_id { get; set; }
@@ -26,5 +28,9 @@ namespace AlbertSession2
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Events> Events { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Offers> Offers { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Reservations> Reservations { get; set; }
     }
 }

@@ -50,6 +50,11 @@ namespace AlbertSession2
             else
             {
                 MessageBox.Show("Login successfully!");
+
+                MainWindow mainWindow = new MainWindow(user.user_id);
+                mainWindow.Show();
+
+                this.Close();
             }
 
 

@@ -13,10 +13,10 @@ namespace AlbertSession2
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class albertTwoEntities1 : DbContext
+    public partial class albertTwoEntities2 : DbContext
     {
-        public albertTwoEntities1()
-            : base("name=albertTwoEntities1")
+        public albertTwoEntities2()
+            : base("name=albertTwoEntities2")
         {
         }
     
@@ -26,8 +26,12 @@ namespace AlbertSession2
         }
     
         public virtual DbSet<Events> Events { get; set; }
+        public virtual DbSet<InventoryItems> InventoryItems { get; set; }
         public virtual DbSet<Locations> Locations { get; set; }
+        public virtual DbSet<Offers> Offers { get; set; }
         public virtual DbSet<RequestedItems> RequestedItems { get; set; }
+        public virtual DbSet<Reservations> Reservations { get; set; }
+        public virtual DbSet<Table> Table { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }
 }

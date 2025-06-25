@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbertSession2Mobile.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Events Page" >
+        <StackLayout Padding="10">
+            <CollectionView x:Name="EventsCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate >
+                        <Frame  Padding="10" BorderColor="LightGray" HeightRequest="300" >
+                            <StackLayout Margin="10">
+                                <Label Text="{Binding name}" FontAttributes="Bold" FontSize="Medium"/>
+                                <Label Text="{Binding locationName}" FontSize="Small"/>
+                                <Label Text="{Binding start, StringFormat='Start: {0:dd.MM.yy HH:mm}'}"/>
+                                <Label Text="{Binding end, StringFormat='Start: {0:dd.MM.yy HH:mm}'}"/>
+
+
+                                <CollectionView ItemsSource="{Binding requestedItems}">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Padding="5" ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/> 
+                                                </Grid.ColumnDefinitions>
+
+
+                                                <Label Grid.Column="0" Text="{Binding Name}" VerticalOptions="Center"/>
+
+                                                <StackLayout Grid.Column="1" Orientation="Horizontal" Spacing="5">
+                                                    <Label Text="{Binding Amount}" VerticalOptions="Center"/>
+                                                    <CheckBox IsChecked="{Binding IsFull}"/>
+                                                </StackLayout>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Margin="10" Text="Refresh" x:Name="refreshButton" Clicked ="refreshButton_Clicked" BackgroundColor="LightCoral" FontSize="16"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Requests Page" >
+        <StackLayout>
+            <CollectionView x:Name="RequestsCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" BorderColor="LightGray" HeightRequest="300">
+                            <StackLayout Orientation="Vertical" Margin="10">
+                                <Label  Text="{Binding RequestedItemId,StringFormat='Requested Item Id :{0}'}" Margin="10" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label Text="{Binding EventName,StringFormat='Event Name: {0}'}" Margin="10" FontSize="14"/>
+                                <Label Text="{Binding Name,StringFormat='Item Name : {0}'}" Margin="10" FontSize="14"/>
+                                <StackLayout  Orientation="Horizontal" Spacing="10" Margin="10">
+                                    <Label Text="Is full" VerticalOptions="Center"/>
+                                    <CheckBox IsChecked="{Binding IsFull}"/>
+                                </StackLayout>
+
+                                <Label Text="{Binding ReservationCount, StringFormat='Reservation Count: {0}'}" Margin="10" FontSize="14"/>
+                                <CollectionView ItemsSource="{Binding Reservations}" Margin="10">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Padding="5" ColumnSpacing="10">
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+
+                                                </Grid.RowDefinitions>
+                                                <Label Text="{Binding reservationId,StringFormat='Reservation Id: {0}'}" VerticalOptions="Center" Grid.Row="0"/>
+                                                <StackLayout Orientation="Horizontal" Spacing="5" Grid.Row="1">
+                                                    <Label Text="{Binding startTime}"  Margin="5" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding endTime}"  Margin="5" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding reservedByUsername} " Margin="5" VerticalOptions="Center" />
+                                                </StackLayout>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Offers Page" >
+        <StackLayout>
+            <CollectionView x:Name="OffersCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" BorderColor="LightGray" HeightRequest="200">
+                            <StackLayout Margin="10">
+
+                                <Label Text="{Binding offerId,StringFormat='Offer Id: №{0}'}" FontSize="Medium" FontAttributes="Italic"/>
+                                <Label Text="{Binding requestedItemName, StringFormat='Requested Item Name: {0}'}" FontAttributes="Bold" FontSize="Medium"/>
+                                <Label Text="{Binding Amount, StringFormat='Item Amount: {0}'}" FontSize="Medium"/>
+                                <CollectionView ItemsSource="{Binding reservations}" Margin="10">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Padding="5" ColumnSpacing="10">
+                                               
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    
+                                                </Grid.RowDefinitions>
+                                                <Label Text="{Binding reservationId,StringFormat='Reservation Id: {0}'}" VerticalOptions="Center" Grid.Row="0"/>
+                                                <StackLayout Orientation="Horizontal" Spacing="5" Grid.Row="1">
+                                                    <Label Text="{Binding startTime}"  Margin="5" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding endTime}"  Margin="5" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding reservedByUsername} " Margin="5" VerticalOptions="Center" />
+                                                </StackLayout>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button Margin="10" Text="Refresh" Clicked="refreshButton_Clicked" BackgroundColor="LightCoral" FontSize="16"/>
+        </StackLayout>
+    </ContentPage>
+    
+</TabbedPage>
