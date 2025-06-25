@@ -1,0 +1,53 @@
+﻿<Window x:Class="AESessionThreeWPF.ImportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AESessionThreeWPF"
+        mc:Ignorable="d"
+        Title="Import" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="20" VerticalAlignment="Center" Height="40">
+            <Button Content="🔍" Width="30" Margin="0,0,5,0"/>
+            <Button Content="Select file" HorizontalAlignment="Stretch" FontSize="14" x:Name="BtnSelectFile" Click="BtnSelectFile_Click"/>
+        </DockPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <RadioButton Content="Organizers" GroupName="ImportType" IsChecked="True" x:Name="RbOrganizers" FontSize="14"/>
+            <RadioButton Content="Locations" GroupName="ImportType" FontSize="14" x:Name="RbLocations"/>
+            <RadioButton Content="Events" FontSize="14" GroupName="ImportType" x:Name="RbEvents"/>
+            <RadioButton Content="Bookings (csv)" FontSize="14" GroupName="ImportType" x:Name="RbBookingsCsv"/>
+            <RadioButton Content="Bookings (mc)" FontSize="14" GroupName="ImportType" x:Name="RbBookingsMc"/>
+            <RadioButton Content="Bookings (tpc)" FontSize="14" GroupName="ImportType" x:Name="RbBookingsTpc"/>
+        </StackPanel>
+        <Button Content="Import" Grid.Row="1" Grid.Column="1" Width="100" Height="30" FontSize="14" x:Name="BtnImport" Click="BtnImport_Click"/>
+        <Button Content="Dashboard Window" Grid.Row="1" Grid.Column="2" Width="200" Height="30" FontSize="14" x:Name="BtnDashboard" Click="BtnDashboard_Click"/>
+        <Button Content="Events Details Window" Grid.Row="1" Grid.Column="0" Width="200" Height="30" FontSize="14" x:Name="BtnEvent" Click="BtnEvent_Click"/>
+
+        <DataGrid
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            Margin="10"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            
+            >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Line number" Binding="{Binding LineNumber}" Width="*"/>
+                <DataGridTextColumn Header="Text" Binding="{Binding Text}" Width="*"/>
+                <DataGridTextColumn Header="Error" Binding="{Binding Error}" Width="*"/>
+            </DataGrid.Columns>
+            
+        </DataGrid>
+        
+    </Grid>
+</Window>

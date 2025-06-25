@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd39082e46e24d9a8e4980104d17937b" Name="Diagram1">
+        <EntityTypeShape EntityType="albertSessionThreeModel.Booking" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.Error" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.EventGroup" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.Event" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.Location" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.Organizer" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.sysdiagram" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.Ticket" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.TicketTier" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="albertSessionThreeModel.User" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Bookings__Ticket__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Bookings__UserId__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Events__EventGro__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__TicketTie__Event__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Events__Location__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Events__Organize__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Tickets__EventId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="albertSessionThreeModel.FK__Tickets__TicketT__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

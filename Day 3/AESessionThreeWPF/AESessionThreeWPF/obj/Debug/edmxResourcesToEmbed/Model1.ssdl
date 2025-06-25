@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="albertSessionThreeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="UserId" Type="char" MaxLength="36" />
+    <Property Name="TicketId" Type="char" MaxLength="36" />
+    <Property Name="BoughtAt" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="Errors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="errorLine" Type="int" />
+    <Property Name="errorText" Type="varchar" MaxLength="250" />
+    <Property Name="errorMessage" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="EventGroups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="OrganizerId" Type="char" MaxLength="36" />
+    <Property Name="LocationId" Type="char" MaxLength="36" />
+    <Property Name="EventGroupId" Type="char" MaxLength="36" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Description" Type="text" />
+    <Property Name="StartsAt" Type="datetime" Nullable="false" />
+    <Property Name="Duration" Type="time" Precision="7" />
+    <Property Name="BaseDemand" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Cost" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Hosts" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="MaxVisitors" Type="int" />
+    <Property Name="Description" Type="text" />
+  </EntityType>
+  <EntityType Name="Organizers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tickets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="EventId" Type="char" MaxLength="36" />
+    <Property Name="TicketTierId" Type="char" MaxLength="36" />
+    <Property Name="MaxAvailable" Type="int" />
+    <Property Name="ActualPrice" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="TicketTiers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+    <Property Name="EventGroupId" Type="char" MaxLength="36" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Description" Type="text" />
+    <Property Name="BasePrice" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="char" MaxLength="36" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Bookings__Ticket__44FF419A">
+    <End Role="Tickets" Type="Self.Tickets" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tickets">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="TicketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__UserId__45F365D3">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Events__EventGro__46E78A0C">
+    <End Role="EventGroups" Type="Self.EventGroups" Multiplicity="0..1" />
+    <End Role="Events" Type="Self.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventGroups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="EventGroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Events__Location__47DBAE45">
+    <End Role="Locations" Type="Self.Locations" Multiplicity="0..1" />
+    <End Role="Events" Type="Self.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Events__Organize__48CFD27E">
+    <End Role="Organizers" Type="Self.Organizers" Multiplicity="0..1" />
+    <End Role="Events" Type="Self.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organizers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="OrganizerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tickets__EventId__49C3F6B7">
+    <End Role="Events" Type="Self.Events" Multiplicity="0..1" />
+    <End Role="Tickets" Type="Self.Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Events">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tickets__TicketT__4AB81AF0">
+    <End Role="TicketTiers" Type="Self.TicketTiers" Multiplicity="0..1" />
+    <End Role="Tickets" Type="Self.Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TicketTiers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tickets">
+        <PropertyRef Name="TicketTierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TicketTie__Event__4BAC3F29">
+    <End Role="EventGroups" Type="Self.EventGroups" Multiplicity="0..1" />
+    <End Role="TicketTiers" Type="Self.TicketTiers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventGroups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TicketTiers">
+        <PropertyRef Name="EventGroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="albertSessionThreeModelStoreContainer">
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Errors" EntityType="Self.Errors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventGroups" EntityType="Self.EventGroups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Events" EntityType="Self.Events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Organizers" EntityType="Self.Organizers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tickets" EntityType="Self.Tickets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TicketTiers" EntityType="Self.TicketTiers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Bookings__Ticket__44FF419A" Association="Self.FK__Bookings__Ticket__44FF419A">
+      <End Role="Tickets" EntitySet="Tickets" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__UserId__45F365D3" Association="Self.FK__Bookings__UserId__45F365D3">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Events__EventGro__46E78A0C" Association="Self.FK__Events__EventGro__46E78A0C">
+      <End Role="EventGroups" EntitySet="EventGroups" />
+      <End Role="Events" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Events__Location__47DBAE45" Association="Self.FK__Events__Location__47DBAE45">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Events" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Events__Organize__48CFD27E" Association="Self.FK__Events__Organize__48CFD27E">
+      <End Role="Organizers" EntitySet="Organizers" />
+      <End Role="Events" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tickets__EventId__49C3F6B7" Association="Self.FK__Tickets__EventId__49C3F6B7">
+      <End Role="Events" EntitySet="Events" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tickets__TicketT__4AB81AF0" Association="Self.FK__Tickets__TicketT__4AB81AF0">
+      <End Role="TicketTiers" EntitySet="TicketTiers" />
+      <End Role="Tickets" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TicketTie__Event__4BAC3F29" Association="Self.FK__TicketTie__Event__4BAC3F29">
+      <End Role="EventGroups" EntitySet="EventGroups" />
+      <End Role="TicketTiers" EntitySet="TicketTiers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

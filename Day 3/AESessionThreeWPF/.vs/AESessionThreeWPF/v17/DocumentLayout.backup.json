@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\eventtableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\eventtableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\eventdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\eventdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\eventdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\eventdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\importwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\importwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\eventgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\eventgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\importwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\importwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventTableItem.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ModelDTO\\EventTableItem.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\ModelDTO\\EventTableItem.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ModelDTO\\EventTableItem.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\EventTableItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:39:32.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\Event.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\Event.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\Event.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\Event.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:37:35.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventDetailsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\EventDetailsWindow.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventDetailsWindow.xaml.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\EventDetailsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:50:29.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DB.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ModelDTO\\DB.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\ModelDTO\\DB.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ModelDTO\\DB.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\DB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:48:30.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventGroup.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventGroup.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\EventGroup.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventGroup.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\EventGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:47:58.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardWindow.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\DashboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\DashboardWindow.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\DashboardWindow.xaml.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\DashboardWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:47:27.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardWindow.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\DashboardWindow.xaml",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\DashboardWindow.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\DashboardWindow.xaml",
+              "RelativeToolTip": "AESessionThreeWPF\\DashboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T09:46:39.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImportWindow.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ImportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\ImportWindow.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ImportWindow.xaml.cs",
+              "RelativeToolTip": "AESessionThreeWPF\\ImportWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAMwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:44:40.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImportWindow.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ImportWindow.xaml",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\ImportWindow.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ImportWindow.xaml",
+              "RelativeToolTip": "AESessionThreeWPF\\ImportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T09:44:09.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDetailsWindow.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "AESessionThreeWPF\\EventDetailsWindow.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventDetailsWindow.xaml",
+              "RelativeToolTip": "AESessionThreeWPF\\EventDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T09:31:48.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
