@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\ticketpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\ticketpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\ticketpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\ticketpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\eventdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\eventdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\calendarpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\calendarpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\eventdetailspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\eventdetailspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\eventlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\eventlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\addticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\addticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\ticketsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\ticketsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\eventlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\eventlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\picturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\picturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\programpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\programpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour.android\\resources\\xml\\network.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|solutionrelative:albertsessionfour\\albertsessionfour.android\\resources\\xml\\network.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|solutionrelative:albertsessionfour\\albertsessionfour.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\helper\\loginreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\loginreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\albertsessionfour\\albertsessionfour.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|solutionrelative:albertsessionfour\\albertsessionfour.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTicketRequest.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\AddTicketRequest.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\AddTicketRequest.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\AddTicketRequest.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\AddTicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:52:51.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\App.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\App.xaml.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:47:37.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\App.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\App.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\App.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T06:47:34.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventDetailsPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:41:54.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDetailsPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T06:38:34.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml.cs*",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml.cs*",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:24:28.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketsDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\TicketsDto.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\TicketsDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\TicketsDto.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\TicketsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:16:17.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProgramPointDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\ProgramPointDto.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ProgramPointDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\ProgramPointDto.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ProgramPointDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:16:05.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PictureDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\PictureDto.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\PictureDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\PictureDto.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\PictureDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:15:57.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\EventDto.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\EventDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\EventDto.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\EventDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:15:49.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-26T05:38:14.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginReponseDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\LoginReponseDto.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\LoginReponseDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\LoginReponseDto.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\LoginReponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:30:04.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "network.xml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\Resources\\xml\\network.xml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour.Android\\Resources\\xml\\network.xml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\Resources\\xml\\network.xml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour.Android\\Resources\\xml\\network.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-26T05:09:25.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\ApiService.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ApiService.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\Helper\\ApiService.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ApiService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:08:49.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour.Android\\MainActivity.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.Android\\MainActivity.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour.Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:06:41.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventListPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:04:18.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalendarPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:00:31.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T04:46:53.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalendarPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T04:46:42.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventListPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T04:46:26.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T04:36:11.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml.cs",
+              "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:33:04.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

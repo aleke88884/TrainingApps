@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbertSessionFour.EventDetailsPage">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Label x:Name="NameLabel" FontSize="Large" FontAttributes="Bold"/>
+            <Label x:Name="LocationLabel"/>
+            <Label x:Name="StartLabel"/>
+            <Label x:Name="EndLabel"/>
+            <Label x:Name="PriceLabel" FontAttributes="Bold"/>
+
+            <Label x:Name="Empty" FontAttributes="Bold"/>
+            <CollectionView x:Name="ProgramPointsCollectionView" ItemsLayout="VerticalList" HeightRequest="80">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Name}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                
+            </CollectionView>
+
+            <Label Text="Pictures" FontAttributes="Bold"/>
+            <CollectionView x:Name="PicturesCollectionView"  ItemsLayout="HorizontalList" HeightRequest="150" >
+                <CollectionView.ItemTemplate >
+                    <DataTemplate >
+                        <Grid >
+                            <Image Source="{Binding Picture1}"  HeightRequest="60" WidthRequest="80" Margin="10"/>    
+                        </Grid>
+                        
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+            <Button Text="Save to calendar" x:Name="BtnSaveCalendar" Clicked="BtnSaveCalendar_Clicked"/>
+            <Button Text="Buy ticket" x:Name="BtnBuyTicket" Clicked="BtnBuyTicket_Clicked"/>
+            <Button Text="Back" x:Name="BtnBack" Clicked="BtnBack_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

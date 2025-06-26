@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             x:Class="AlbertSessionFour.CalendarPage"
+             Title="Event Calendar">
+
+    <StackLayout Padding="10" Spacing="10">
+
+        <Label Text="Monthly Calendar" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+        <controls:Calendar x:Name="EventCalendar"
+                           StartDay="Monday"
+                           ShowNumberOfWeek="False"
+                           EnableTitleMonthYearView="True"
+                           MonthNavigationShow="True"
+                           HeightRequest="500"
+                           DateClicked="EventCalendar_DateClicked_1"
+                           />
+
+        <!-- Legend -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <BoxView Color="Green" WidthRequest="20" HeightRequest="20"/>
+                <Label Text="Planned Events"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <BoxView Color="Blue" WidthRequest="20" HeightRequest="20"/>
+                <Label Text="Booked Events"/>
+            </StackLayout>
+        </StackLayout>
+
+        <Label x:Name="SelectedDateLabel" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Center" />
+
+        <ListView x:Name="DayEventsListView" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5">
+                            <Label Text="{Binding Name}" FontAttributes="Bold" />
+                            <Label Text="{Binding Venue}" />
+                            <Label Text="{Binding StartAt}" />
+                            <Label Text="{Binding TicketInfo}" FontAttributes="Italic" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

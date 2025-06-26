@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\ticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\ticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\programpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\programpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\picturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\picturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\albertfourcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\albertfourcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\model\\programpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\model\\programpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|d:\\training days apps\\day 4\\aesessionfour\\aesessionfour\\helpers\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED08B223-5165-4F0D-805D-16442779EF2F}|AESessionFour\\AESessionFourApi.csproj|solutionrelative:aesessionfour\\helpers\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketRequest.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\TicketRequest.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\TicketRequest.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\TicketRequest.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\TicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:48:12.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "AESessionFour\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:38:24.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\appsettings.json",
+              "RelativeDocumentMoniker": "AESessionFour\\appsettings.json",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\appsettings.json",
+              "RelativeToolTip": "AESessionFour\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T10:51:28.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AESessionFour\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AESessionFour\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T10:51:24.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Program.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Program.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Program.cs",
+              "RelativeToolTip": "AESessionFour\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:51:19.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\UserDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\UserDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\UserDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:30:23.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Ticket.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\Ticket.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Ticket.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\Ticket.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:18:38.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\User.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\User.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\User.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:16:20.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\TicketDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\TicketDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\TicketDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\TicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:16:17.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProgramPointDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\ProgramPointDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\ProgramPointDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\ProgramPointDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\ProgramPointDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:16:08.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProgramPoint.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\ProgramPoint.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\ProgramPoint.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\ProgramPoint.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\ProgramPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:15:57.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PictureDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\PictureDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\PictureDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\PictureDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\PictureDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:15:52.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Picture.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\Picture.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Picture.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\Picture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:15:39.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\EventDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\EventDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\EventDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\EventDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:15:35.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Event.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\Event.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\Event.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:15:19.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\LoginRequestDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\LoginRequestDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:51:12.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Helpers\\LoginResponseDto.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Helpers\\LoginResponseDto.cs",
+              "RelativeToolTip": "AESessionFour\\Helpers\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:50:58.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlbertFourContext.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\AlbertFourContext.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Model\\AlbertFourContext.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Model\\AlbertFourContext.cs",
+              "RelativeToolTip": "AESessionFour\\Model\\AlbertFourContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:46:25.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AESessionFour\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\AESessionFour\\AESessionFour\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AESessionFour\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:03:16.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

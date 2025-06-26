@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|d:\\training days apps\\day 4\\mauiappfour\\mauiappfour\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|solutionrelative:mauiappfour\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|d:\\training days apps\\day 4\\mauiappfour\\mauiappfour\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|solutionrelative:mauiappfour\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|d:\\training days apps\\day 4\\mauiappfour\\mauiappfour\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|solutionrelative:mauiappfour\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|d:\\training days apps\\day 4\\mauiappfour\\mauiappfour\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D017E009-AEC9-4E61-AF2D-E280D3770492}|MauiAppFour\\MauiAppFour.csproj|solutionrelative:mauiappfour\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiAppFour\\MainPage.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\MainPage.xaml",
+              "RelativeToolTip": "MauiAppFour\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T05:24:12.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\App.xaml",
+              "RelativeDocumentMoniker": "MauiAppFour\\App.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\App.xaml",
+              "RelativeToolTip": "MauiAppFour\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T05:24:11.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MauiAppFour\\AppShell.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\AppShell.xaml",
+              "RelativeToolTip": "MauiAppFour\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T05:24:08.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppFour\\MainPage.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 4\\MauiAppFour\\MauiAppFour\\MainPage.xaml.cs",
+              "RelativeToolTip": "MauiAppFour\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T05:23:25.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

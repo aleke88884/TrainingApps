@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbertSessionFour.TicketPage">
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="10">
+
+            <!-- Event Info -->
+            <Label x:Name="EventNameLabel" FontAttributes="Bold" />
+            <Label x:Name="EventVenueLabel" />
+            <Label x:Name="EventStartLabel" />
+            <Label x:Name="EventEndLabel" />
+            <Label x:Name="EventPriceLabel" />
+
+            <!-- Number of Tickets -->
+            <Entry x:Name="TicketCountEntry" Placeholder="Number of Tickets"
+                   Keyboard="Numeric" />
+
+            <!-- Total Price -->
+            <Label x:Name="TotalPriceLabel" FontAttributes="Bold" />
+
+            <!-- Credit Card Section -->
+            <Picker x:Name="CardTypePicker" Title="Card Type">
+                <Picker.Items>
+                    <x:String>Visa Card</x:String>
+                    <x:String>Master Card</x:String>
+                    <x:String>American Express</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry x:Name="CardNumberEntry" Placeholder="Card Number (16 digits)"
+                   Keyboard="Numeric" MaxLength="16" />
+
+            <Entry x:Name="CardExpiryEntry" Placeholder="Expiration Date (MM/YY)"
+                   Keyboard="Plain" MaxLength="5" />
+
+            <Entry x:Name="CardCheckEntry" Placeholder="Check Number (3 digits)"
+                   Keyboard="Numeric" MaxLength="3" />
+
+            <!-- Purchase Button -->
+
+            <Entry x:Name="PersonsNumber" Placeholder="Persons Number"
+         Keyboard="Numeric"  />
+
+
+            <Button x:Name="PurchaseButton" Text="Purchase" Clicked="PurchaseButton_Clicked" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
