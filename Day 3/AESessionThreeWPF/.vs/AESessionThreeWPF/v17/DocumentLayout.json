@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\importwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\importwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\importwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,31 +19,31 @@
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\eventdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\modeldto\\chartpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\chartpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\chartpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\modeldto\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\modeldto\\tierforecastitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\tierforecastitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\tierforecastitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\modeldto\\tierstableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\modeldto\\tierstableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\modeldto\\tierstableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\tickettier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\tickettier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\tickettier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|d:\\training days apps\\day 3\\aesessionthreewpf\\aesessionthreewpf\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\aesessionthreewpf\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59174E2B-DCFC-4A7A-B2B7-2B4C22402BA5}|AESessionThreeWPF\\AESessionThreeWPF.csproj|solutionrelative:aesessionthreewpf\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -86,8 +86,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\OrganizerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:31:31.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:31:31.604Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\ChartPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:23:48.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:23:48.172Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\TierForecastItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:12:03.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:12:03.6Z"
             },
             {
               "$type": "Document",
@@ -125,8 +122,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T04:36:21.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T04:36:21.326Z"
             },
             {
               "$type": "Document",
@@ -138,8 +134,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\TiersTableItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:00:14.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T06:00:14.224Z"
             },
             {
               "$type": "Document",
@@ -151,8 +146,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\TicketTier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T05:45:40.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:45:40.156Z"
             },
             {
               "$type": "Document",
@@ -164,8 +158,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\ModelDTO\\EventTableItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:39:32.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:39:32.513Z"
             },
             {
               "$type": "Document",
@@ -177,8 +170,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\Event.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAzwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:37:35.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:37:35.038Z"
             },
             {
               "$type": "Document",
@@ -190,8 +182,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\EventDetailsWindow.xaml.cs",
               "ViewState": "AgIAAKcAAAAAAAAAAAAswLoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:50:29.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:50:29.469Z"
             },
             {
               "$type": "Document",
@@ -227,8 +218,7 @@
               "RelativeToolTip": "AESessionThreeWPF\\DashboardWindow.xaml.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAnwJYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:47:27.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:47:27.01Z"
             },
             {
               "$type": "Document",
@@ -239,8 +229,7 @@
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\DashboardWindow.xaml",
               "RelativeToolTip": "AESessionThreeWPF\\DashboardWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-24T09:46:39.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:46:39.007Z"
             },
             {
               "$type": "Document",
@@ -264,8 +253,7 @@
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\ImportWindow.xaml",
               "RelativeToolTip": "AESessionThreeWPF\\ImportWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-24T09:44:09.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:44:09.454Z"
             },
             {
               "$type": "Document",
@@ -276,8 +264,7 @@
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 3\\AESessionThreeWPF\\AESessionThreeWPF\\EventDetailsWindow.xaml",
               "RelativeToolTip": "AESessionThreeWPF\\EventDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-24T09:31:48.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:31:48.465Z"
             }
           ]
         }
