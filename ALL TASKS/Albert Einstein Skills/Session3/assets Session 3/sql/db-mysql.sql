@@ -1,0 +1,16 @@
+CREATE TABLE `Bookings` (`Id` char(36) NOT NULL, `UserId` char(36) NULL, `TicketId` char(36) NULL, `BoughtAt` datetime NOT NULL, `Amount` int NULL, `Price` decimal(10, 2) NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `EventGroups` (`Id` char(36) NOT NULL, `Name` varchar(255) NOT NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `Events` (`Id` char(36) NOT NULL, `OrganizerId` char(36) NULL, `LocationId` char(36) NULL, `EventGroupId` char(36) NULL, `Name` varchar(255) NOT NULL, `Description` text NULL, `StartsAt` datetime NOT NULL, `Duration` time NULL, `BaseDemand` decimal(10, 2) NULL, `Cost` decimal(10, 2) NULL, `Hosts` varchar(2000) NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `Locations` (`Id` char(36) NOT NULL, `Name` varchar(255) NOT NULL, `Location` varchar(255) NOT NULL, `MaxVisitors` int NULL, `Description` text NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `Organizers` (`Id` char(36) NOT NULL, `Name` varchar(255) NOT NULL, `Address` varchar(255) NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `Tickets` (`Id` char(36) NOT NULL, `EventId` char(36) NULL, `TicketTierId` char(36) NULL, `MaxAvailable` int NULL, `ActualPrice` decimal(10, 2) NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `TicketTiers` (`Id` char(36) NOT NULL, `EventGroupId` char(36) NULL, `Name` varchar(255) NOT NULL, `Description` text NULL, `BasePrice` decimal(10, 2) NULL, PRIMARY KEY (`Id`));
+CREATE TABLE `Users` (`Id` char(36) NOT NULL, PRIMARY KEY (`Id`));
+ALTER TABLE `Bookings` ADD FOREIGN KEY (`TicketId`) REFERENCES `Tickets`(`Id`);
+ALTER TABLE `Bookings` ADD FOREIGN KEY (`UserId`) REFERENCES `Users`(`Id`);
+ALTER TABLE `Events` ADD FOREIGN KEY (`EventGroupId`) REFERENCES `EventGroups`(`Id`);
+ALTER TABLE `Events` ADD FOREIGN KEY (`LocationId`) REFERENCES `Locations`(`Id`);
+ALTER TABLE `Events` ADD FOREIGN KEY (`OrganizerId`) REFERENCES `Organizers`(`Id`);
+ALTER TABLE `Tickets` ADD FOREIGN KEY (`EventId`) REFERENCES `Events`(`Id`);
+ALTER TABLE `Tickets` ADD FOREIGN KEY (`TicketTierId`) REFERENCES `TicketTiers`(`Id`);
+ALTER TABLE `TicketTiers` ADD FOREIGN KEY (`EventGroupId`) REFERENCES `EventGroups`(`Id`);
