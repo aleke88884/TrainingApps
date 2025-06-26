@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,14 +43,6 @@
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,20 +51,12 @@
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|solutionrelative:albertsessionsecondapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D8E29B-5F47-49F3-A213-E4C0AE2E4EFB}|AlbertSessionSecondApi\\AlbertSessionSecondApi.csproj|d:\\training days apps\\day 2\\albertsessionsecondapi\\albertsessionsecondapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "RequestedItem.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Models\\RequestedItem.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Models\\RequestedItem.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\Models\\RequestedItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:09:53.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T10:09:53.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RequestController.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\RequestController.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Controllers\\RequestController.cs",
@@ -128,58 +127,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "EventsController.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Controllers\\EventsController.cs",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "AlbertSessionSecondApi\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:55:08.927Z"
+              "WhenOpened": "2025-06-18T08:55:08.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\LoginResponseDto.cs",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\LoginResponseDto.cs",
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T08:23:16.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\LoginRequestDto.cs",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\LoginRequestDto.cs",
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T08:23:09.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AlbertSessionSecondApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwC8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T08:22:55.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "OfferController.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\OfferController.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Controllers\\OfferController.cs",
@@ -187,8 +187,7 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\Controllers\\OfferController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAcwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:22:42.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:22:42.524Z"
             },
             {
               "$type": "Document",
@@ -204,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ReservationDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\ReservationDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\ReservationDto.cs",
@@ -212,12 +211,11 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\ReservationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:14:09.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:14:09.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EventDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\EventDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\EventDto.cs",
@@ -225,12 +223,11 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\EventDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:13:48.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:13:48.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "OfferDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\OfferDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\OfferDto.cs",
@@ -238,12 +235,11 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\OfferDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:13:40.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:13:40.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Program.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Program.cs",
@@ -255,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RequestedItemDto.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\DTO\\RequestedItemDto.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\DTO\\RequestedItemDto.cs",
@@ -263,8 +259,7 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\DTO\\RequestedItemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:27:51.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T08:27:51.503Z"
             },
             {
               "$type": "Document",
@@ -280,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\Controllers\\LocationsController.cs",
@@ -288,12 +283,11 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\Controllers\\LocationsController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAA7wFYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T06:31:36.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T06:31:36.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 2\\AlbertSessionSecondApi\\AlbertSessionSecondApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "AlbertSessionSecondApi\\appsettings.Development.json",
@@ -361,8 +355,7 @@
               "RelativeToolTip": "AlbertSessionSecondApi\\Models\\AlbertSessionSecondContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T06:29:32.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T06:29:32.447Z"
             },
             {
               "$type": "Document",

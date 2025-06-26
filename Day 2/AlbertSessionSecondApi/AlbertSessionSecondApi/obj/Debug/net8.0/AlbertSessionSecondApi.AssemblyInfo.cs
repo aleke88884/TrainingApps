@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlbertSessionSecondApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+436a58e0b23e34ff637a7c35d60ffc0510d2205c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98f3f046dddbaeab029a55a9a925dc74e893f0c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlbertSessionSecondApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlbertSessionSecondApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
