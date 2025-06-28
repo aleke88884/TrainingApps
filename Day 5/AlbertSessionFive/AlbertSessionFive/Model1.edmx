@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="albertFiveModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Directions">
+          <Key>
+            <PropertyRef Name="direction_id" />
+          </Key>
+          <Property Name="direction_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Events">
+          <Key>
+            <PropertyRef Name="event_id" />
+          </Key>
+          <Property Name="event_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="location_id" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="start" Type="datetime" Nullable="false" />
+          <Property Name="end" Type="datetime" Nullable="false" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="discount_percent" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Gaps">
+          <Key>
+            <PropertyRef Name="gap_id" />
+          </Key>
+          <Property Name="gap_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="location_id" Type="int" Nullable="false" />
+          <Property Name="position" Type="int" Nullable="false" />
+          <Property Name="direction_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Locations">
+          <Key>
+            <PropertyRef Name="location_id" />
+          </Key>
+          <Property Name="location_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="rows" Type="int" Nullable="false" />
+          <Property Name="seats_per_row" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UnavailableSeats">
+          <Key>
+            <PropertyRef Name="unavailable_seat_id" />
+          </Key>
+          <Property Name="unavailable_seat_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="location_id" Type="int" Nullable="false" />
+          <Property Name="row" Type="int" Nullable="false" />
+          <Property Name="seat" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Events__location__3F466844">
+          <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+          <End Role="Events" Type="Self.Events" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="Events">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Gaps__direction___403A8C7D">
+          <End Role="Directions" Type="Self.Directions" Multiplicity="1" />
+          <End Role="Gaps" Type="Self.Gaps" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Directions">
+              <PropertyRef Name="direction_id" />
+            </Principal>
+            <Dependent Role="Gaps">
+              <PropertyRef Name="direction_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Gaps__location_i__412EB0B6">
+          <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+          <End Role="Gaps" Type="Self.Gaps" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="Gaps">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Unavailab__locat__4222D4EF">
+          <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+          <End Role="UnavailableSeats" Type="Self.UnavailableSeats" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="UnavailableSeats">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="albertFiveModelStoreContainer">
+          <EntitySet Name="Directions" EntityType="Self.Directions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Events" EntityType="Self.Events" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Gaps" EntityType="Self.Gaps" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnavailableSeats" EntityType="Self.UnavailableSeats" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Events__location__3F466844" Association="Self.FK__Events__location__3F466844">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="Events" EntitySet="Events" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Gaps__direction___403A8C7D" Association="Self.FK__Gaps__direction___403A8C7D">
+            <End Role="Directions" EntitySet="Directions" />
+            <End Role="Gaps" EntitySet="Gaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Gaps__location_i__412EB0B6" Association="Self.FK__Gaps__location_i__412EB0B6">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="Gaps" EntitySet="Gaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Unavailab__locat__4222D4EF" Association="Self.FK__Unavailab__locat__4222D4EF">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="UnavailableSeats" EntitySet="UnavailableSeats" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="albertFiveModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Direction">
+          <Key>
+            <PropertyRef Name="direction_id" />
+          </Key>
+          <Property Name="direction_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Gaps" Relationship="Self.FK__Gaps__direction___403A8C7D" FromRole="Directions" ToRole="Gaps" />
+        </EntityType>
+        <EntityType Name="Event">
+          <Key>
+            <PropertyRef Name="event_id" />
+          </Key>
+          <Property Name="event_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="location_id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="start" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="end" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="discount_percent" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="Self.FK__Events__location__3F466844" FromRole="Events" ToRole="Locations" />
+        </EntityType>
+        <EntityType Name="Gap">
+          <Key>
+            <PropertyRef Name="gap_id" />
+          </Key>
+          <Property Name="gap_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="location_id" Type="Int32" Nullable="false" />
+          <Property Name="position" Type="Int32" Nullable="false" />
+          <Property Name="direction_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Direction" Relationship="Self.FK__Gaps__direction___403A8C7D" FromRole="Gaps" ToRole="Directions" />
+          <NavigationProperty Name="Location" Relationship="Self.FK__Gaps__location_i__412EB0B6" FromRole="Gaps" ToRole="Locations" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="location_id" />
+          </Key>
+          <Property Name="location_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="rows" Type="Int32" Nullable="false" />
+          <Property Name="seats_per_row" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Events" Relationship="Self.FK__Events__location__3F466844" FromRole="Locations" ToRole="Events" />
+          <NavigationProperty Name="Gaps" Relationship="Self.FK__Gaps__location_i__412EB0B6" FromRole="Locations" ToRole="Gaps" />
+          <NavigationProperty Name="UnavailableSeats" Relationship="Self.FK__Unavailab__locat__4222D4EF" FromRole="Locations" ToRole="UnavailableSeats" />
+        </EntityType>
+        <EntityType Name="UnavailableSeat">
+          <Key>
+            <PropertyRef Name="unavailable_seat_id" />
+          </Key>
+          <Property Name="unavailable_seat_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="location_id" Type="Int32" Nullable="false" />
+          <Property Name="row" Type="Int32" Nullable="false" />
+          <Property Name="seat" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="Self.FK__Unavailab__locat__4222D4EF" FromRole="UnavailableSeats" ToRole="Locations" />
+        </EntityType>
+        <Association Name="FK__Gaps__direction___403A8C7D">
+          <End Role="Directions" Type="Self.Direction" Multiplicity="1" />
+          <End Role="Gaps" Type="Self.Gap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Directions">
+              <PropertyRef Name="direction_id" />
+            </Principal>
+            <Dependent Role="Gaps">
+              <PropertyRef Name="direction_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Events__location__3F466844">
+          <End Role="Locations" Type="Self.Location" Multiplicity="1" />
+          <End Role="Events" Type="Self.Event" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="Events">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Gaps__location_i__412EB0B6">
+          <End Role="Locations" Type="Self.Location" Multiplicity="1" />
+          <End Role="Gaps" Type="Self.Gap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="Gaps">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Unavailab__locat__4222D4EF">
+          <End Role="Locations" Type="Self.Location" Multiplicity="1" />
+          <End Role="UnavailableSeats" Type="Self.UnavailableSeat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="location_id" />
+            </Principal>
+            <Dependent Role="UnavailableSeats">
+              <PropertyRef Name="location_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="albertFiveEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Directions" EntityType="Self.Direction" />
+          <EntitySet Name="Events" EntityType="Self.Event" />
+          <EntitySet Name="Gaps" EntityType="Self.Gap" />
+          <EntitySet Name="Locations" EntityType="Self.Location" />
+          <EntitySet Name="UnavailableSeats" EntityType="Self.UnavailableSeat" />
+          <AssociationSet Name="FK__Gaps__direction___403A8C7D" Association="Self.FK__Gaps__direction___403A8C7D">
+            <End Role="Directions" EntitySet="Directions" />
+            <End Role="Gaps" EntitySet="Gaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Events__location__3F466844" Association="Self.FK__Events__location__3F466844">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="Events" EntitySet="Events" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Gaps__location_i__412EB0B6" Association="Self.FK__Gaps__location_i__412EB0B6">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="Gaps" EntitySet="Gaps" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Unavailab__locat__4222D4EF" Association="Self.FK__Unavailab__locat__4222D4EF">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="UnavailableSeats" EntitySet="UnavailableSeats" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="albertFiveModelStoreContainer" CdmEntityContainer="albertFiveEntities">
+          <EntitySetMapping Name="Directions">
+            <EntityTypeMapping TypeName="albertFiveModel.Direction">
+              <MappingFragment StoreEntitySet="Directions">
+                <ScalarProperty Name="direction_id" ColumnName="direction_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Events">
+            <EntityTypeMapping TypeName="albertFiveModel.Event">
+              <MappingFragment StoreEntitySet="Events">
+                <ScalarProperty Name="event_id" ColumnName="event_id" />
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="start" ColumnName="start" />
+                <ScalarProperty Name="end" ColumnName="end" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="discount_percent" ColumnName="discount_percent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Gaps">
+            <EntityTypeMapping TypeName="albertFiveModel.Gap">
+              <MappingFragment StoreEntitySet="Gaps">
+                <ScalarProperty Name="gap_id" ColumnName="gap_id" />
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="position" ColumnName="position" />
+                <ScalarProperty Name="direction_id" ColumnName="direction_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Locations">
+            <EntityTypeMapping TypeName="albertFiveModel.Location">
+              <MappingFragment StoreEntitySet="Locations">
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="rows" ColumnName="rows" />
+                <ScalarProperty Name="seats_per_row" ColumnName="seats_per_row" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UnavailableSeats">
+            <EntityTypeMapping TypeName="albertFiveModel.UnavailableSeat">
+              <MappingFragment StoreEntitySet="UnavailableSeats">
+                <ScalarProperty Name="unavailable_seat_id" ColumnName="unavailable_seat_id" />
+                <ScalarProperty Name="location_id" ColumnName="location_id" />
+                <ScalarProperty Name="row" ColumnName="row" />
+                <ScalarProperty Name="seat" ColumnName="seat" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

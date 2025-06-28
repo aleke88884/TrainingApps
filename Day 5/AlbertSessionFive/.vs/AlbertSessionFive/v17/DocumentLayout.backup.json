@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\albertsessionfive\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\gap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\gap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\unavailableseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\unavailableseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|d:\\training days apps\\day 5\\albertsessionfive\\albertsessionfive\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71637AA-BA2D-4361-B4D5-B650FA0A790F}|AlbertSessionFive\\AlbertSessionFive.csproj|solutionrelative:albertsessionfive\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Direction.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Direction.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Direction.cs",
+              "RelativeToolTip": "AlbertSessionFive\\Direction.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:46:24.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gap.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Gap.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Gap.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Gap.cs",
+              "RelativeToolTip": "AlbertSessionFive\\Gap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:46:19.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Location.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Location.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Location.cs",
+              "RelativeToolTip": "AlbertSessionFive\\Location.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:46:12.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnavailableSeat.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\UnavailableSeat.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\UnavailableSeat.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\UnavailableSeat.cs",
+              "RelativeToolTip": "AlbertSessionFive\\UnavailableSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:45:59.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Event.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Event.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Event.cs",
+              "RelativeToolTip": "AlbertSessionFive\\Event.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:37:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Seat.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Seat.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Seat.cs",
+              "RelativeToolTip": "AlbertSessionFive\\Seat.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:37:03.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Model1.edmx",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\Model1.edmx",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "AlbertSessionFive\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-28T04:36:24.839Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\ApiService.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\ApiService.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\ApiService.cs",
+              "RelativeToolTip": "AlbertSessionFive\\ApiService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAwwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:12:28.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\MainWindow.xaml",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\MainWindow.xaml*",
+              "RelativeToolTip": "AlbertSessionFive\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-27T10:15:39.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AlbertSessionFive\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\TRAINING DAYS APPS\\Day 5\\AlbertSessionFive\\AlbertSessionFive\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "AlbertSessionFive\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAAABoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T10:15:38.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

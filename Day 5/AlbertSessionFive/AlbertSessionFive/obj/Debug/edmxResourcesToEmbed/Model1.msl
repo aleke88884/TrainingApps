@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="albertFiveModelStoreContainer" CdmEntityContainer="albertFiveEntities">
+    <EntitySetMapping Name="Directions">
+      <EntityTypeMapping TypeName="albertFiveModel.Direction">
+        <MappingFragment StoreEntitySet="Directions">
+          <ScalarProperty Name="direction_id" ColumnName="direction_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="albertFiveModel.Event">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start" ColumnName="start" />
+          <ScalarProperty Name="end" ColumnName="end" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="discount_percent" ColumnName="discount_percent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gaps">
+      <EntityTypeMapping TypeName="albertFiveModel.Gap">
+        <MappingFragment StoreEntitySet="Gaps">
+          <ScalarProperty Name="gap_id" ColumnName="gap_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="direction_id" ColumnName="direction_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="albertFiveModel.Location">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="rows" ColumnName="rows" />
+          <ScalarProperty Name="seats_per_row" ColumnName="seats_per_row" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnavailableSeats">
+      <EntityTypeMapping TypeName="albertFiveModel.UnavailableSeat">
+        <MappingFragment StoreEntitySet="UnavailableSeats">
+          <ScalarProperty Name="unavailable_seat_id" ColumnName="unavailable_seat_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="row" ColumnName="row" />
+          <ScalarProperty Name="seat" ColumnName="seat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

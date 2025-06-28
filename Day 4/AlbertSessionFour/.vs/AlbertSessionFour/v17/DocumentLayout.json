@@ -71,11 +71,11 @@
       "RelativeMoniker": "D:0:0:{3FC32640-DFA4-4019-ADD9-84BAA61FE1B6}|AlbertSessionFour\\AlbertSessionFour\\AlbertSessionFour.csproj|solutionrelative:albertsessionfour\\albertsessionfour\\helper\\programpointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour.android\\resources\\xml\\network.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\albertsessionfour\\albertsessionfour.android\\resources\\xml\\network.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|solutionrelative:albertsessionfour\\albertsessionfour.android\\resources\\xml\\network.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|d:\\training days apps\\day 4\\albertsessionfour\\albertsessionfour\\albertsessionfour.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|D:\\TRAINING DAYS APPS\\Day 4\\AlbertSessionFour\\albertsessionfour\\albertsessionfour.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{455DE5F6-E6A9-4CA1-9CF6-F6FB7AAC4B0F}|AlbertSessionFour\\AlbertSessionFour.Android\\AlbertSessionFour.Android.csproj|solutionrelative:albertsessionfour\\albertsessionfour.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -110,8 +110,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\AddTicketRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T09:52:51.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T09:52:51.956Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:47:37.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:47:37.72Z"
             },
             {
               "$type": "Document",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T06:47:34.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:47:34.899Z"
             },
             {
               "$type": "Document",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAcwDMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:41:54.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:41:54.912Z"
             },
             {
               "$type": "Document",
@@ -162,8 +158,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventDetailsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T06:38:34.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:38:34.551Z"
             },
             {
               "$type": "Document",
@@ -175,8 +170,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:24:28.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:24:28.675Z"
             },
             {
               "$type": "Document",
@@ -188,8 +182,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\TicketsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:16:17.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:16:17.246Z"
             },
             {
               "$type": "Document",
@@ -201,8 +194,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ProgramPointDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:16:05.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:16:05.183Z"
             },
             {
               "$type": "Document",
@@ -214,8 +206,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\PictureDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:15:57.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:15:57.37Z"
             },
             {
               "$type": "Document",
@@ -227,8 +218,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\EventDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:15:49.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:15:49.606Z"
             },
             {
               "$type": "Document",
@@ -240,8 +230,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour.Android\\Properties\\AndroidManifest.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-06-26T05:38:14.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T05:38:14.133Z"
             },
             {
               "$type": "Document",
@@ -253,8 +242,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\LoginReponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T05:30:04.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T05:30:04.619Z"
             },
             {
               "$type": "Document",
@@ -266,8 +254,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour.Android\\Resources\\xml\\network.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-06-26T05:09:25.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T05:09:25.595Z"
             },
             {
               "$type": "Document",
@@ -279,8 +266,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\Helper\\ApiService.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T05:08:49.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T05:08:49.503Z"
             },
             {
               "$type": "Document",
@@ -304,8 +290,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T05:04:18.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T05:04:18.423Z"
             },
             {
               "$type": "Document",
@@ -330,8 +315,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\TicketPage.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T04:46:53.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:46:53.576Z"
             },
             {
               "$type": "Document",
@@ -343,8 +327,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\CalendarPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T04:46:42.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:46:42.914Z"
             },
             {
               "$type": "Document",
@@ -356,8 +339,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\EventListPage.xaml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T04:46:26.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:46:26.595Z"
             },
             {
               "$type": "Document",
@@ -381,8 +363,7 @@
               "RelativeToolTip": "AlbertSessionFour\\AlbertSessionFour\\MainPage.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T04:33:04.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T04:33:04.194Z"
             }
           ]
         }
